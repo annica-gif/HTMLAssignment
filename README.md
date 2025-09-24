@@ -1,3 +1,3 @@
 # HTMLAssignment
-annica gillar dig
+annica gillar dig/
 nej
