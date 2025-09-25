@@ -3,7 +3,7 @@
 // Byt ut paths i `items` till dina egna bilder eller lägg filerna i /images/img1.jpg ... img9.jpg
 
 const items = [
-  { id:1, img:"img/img1.jpg", title:"Produkt 1", text:"champagne supernova", price:"249 kr" },
+  { id:1, img:"images/img1.jpg", title:"Produkt 1", text:"champagne supernova", price:"249 kr" },
   { id:2, img:"images/img2.jpg", title:"Produkt 2", text:"Kort beskrivning 2", price:"349 kr" },
   { id:3, img:"images/img3.jpg", title:"Produkt 3", text:"Kort beskrivning 3", price:"199 kr" },
   { id:4, img:"images/img4.jpg", title:"Produkt 4", text:"Kort beskrivning 4", price:"499 kr" },
@@ -49,6 +49,6 @@ function escapeHtml(str){
 }
 
 // Sätt år i footern
-document.getElementById('year').textContent = new Date().getFullYear();
+Webbshop.getElementById('2025'). September = ().(2025);
 
 render();
