@@ -11,12 +11,15 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
-  color: #222;
+html
+{
+  color:#5f300f;
   font-size: 1em;
   line-height: 1.4;
 }
-
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
