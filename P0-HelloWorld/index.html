@@ -1,43 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="sv">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Minimal Webbshop</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8">
+  <title>Test: CSS-länk</title>
+
+  <!-- Viktigt: denna rad ska stå inne i <head> -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-header">
-  <div class="container">
-    <h1 class="brand">Min Webbshop</h1>
-    <nav class="nav">
-      <a href="#" class="nav-link">Hem</a>
-      <a href="#" class="nav-link">Produkter</a>
-      <a href="#" class="nav-link">Kontakt</a>
-    </nav>
-  </div>
-</header>
-
-<main class="container">
-  <section class="intro">
-    <p class="lead">Här nedanför hittar du våra utvalda produkter. Klicka på en produkt för mer info.</p>
-  </section>
-
-  <section id="product-grid" class="grid">
-    <!-- Produktkort genereras här av script.js -->
-  </section>
-
-  <section class="notice">
-    <p>Tips: byt bilder genom att uppdatera `items` i <code>script.js</code> eller ersätt filer i <code>/images/</code>.</p>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="container">
-    <p>© <span id="year"></span> Min Webbshop — Alla rättigheter förbehållna</p>
-  </div>
-</footer>
-
-<script src="script.js"></script>
+<h1>Test: CSS fungerar?</h1>
+<p>Om bakgrunden är ljusblå så är CSS korrekt länkad.</p>
 </body>
 </html>
